@@ -26,6 +26,12 @@ h1,h2{
 	background-color: rgba(0, 0, 0, 0.8);
 }
 
+.product_container {
+	color: white;
+	padding: 2rem;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
 .navbar{
 	background-color: rgba(0, 0, 0, 0.8);
 }
