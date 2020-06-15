@@ -12,8 +12,18 @@ p {
 .featured_container {
 	padding: 2rem;
 	background-color: rgba(0, 0, 0, 0.8);
-	margin: 20px auto;
+	/* margin: 20px auto; */
 	/* border-radius: 5%; */
+}
+
+h1,h2{
+	font-weight: 200;
+}
+
+.explore_container {
+	color: white;
+	padding: 2rem;
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 .navbar{
