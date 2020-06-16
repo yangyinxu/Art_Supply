@@ -2,9 +2,21 @@ let carts = document.querySelectorAll(".add-cart");
 
 let products = [
     {
-        name: 'Galaxy Book Flex',
-        tag: 'gbf',
+        name: 'Wcom Intuos Pro',
+        tag: 'wip',
         price: 3200,
+        inCart: 0
+    },
+    {
+        name: 'Wacom Intuos',
+        tag: 'wi',
+        price: 2400,
+        inCart: 0
+    },
+    {
+        name: 'One by Wacome',
+        tag: 'wbw',
+        price: 2200,
         inCart: 0
     }
 ];

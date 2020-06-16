@@ -2,9 +2,27 @@ let carts = document.querySelectorAll(".add-cart");
 
 let products = [
     {
-        name: 'Galaxy Book Flex',
-        tag: 'gbf',
+        name: 'Wacom Cintiq Pro 32',
+        tag: 'wcp32',
         price: 3200,
+        inCart: 0
+    },
+    {
+        name: 'Wacom Cintiq Pro 24',
+        tag: 'wcp24',
+        price: 2400,
+        inCart: 0
+    },
+    {
+        name: 'Wacom Cintiq Pro 22hd',
+        tag: 'wcp22hd',
+        price: 2200,
+        inCart: 0
+    },
+    {
+        name: 'Wacom One',
+        tag: 'wcone',
+        price: 1000,
         inCart: 0
     }
 ];

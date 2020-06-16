@@ -1,6 +1,7 @@
 //empty the cart
 let empty = document.querySelector(".btn-danger")
-    addEventListener("click", function(){
-    localStorage.clear();
-    location.reload();
+    empty.addEventListener("click", function(){
+        // alert("Your Shopping Cart has been cleared");
+        localStorage.clear();
+        location.reload();
 });
