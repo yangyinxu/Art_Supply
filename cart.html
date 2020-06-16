@@ -76,22 +76,25 @@
       <!-- Main content -->
       <div class="container explore_container">
         <h2>Cart</h2>
+        <button id="empty_cart" class="btn btn-danger"><i class="fas fa-times"></i> Empty Cart</button>
       </div>
 
       <!-- Products -->
-      <div class="container product_container">
-        <div class="row">
+      <div class="container cart_container">
+            <h5 class="d-flex col-3 justify-content-center">Title</h5>
+            <h5 class="d-flex col-3 justify-content-center">Price</h5>
+            <h5 class="d-flex col-3 justify-content-center">Quentity</h5>
+            <h5 class="d-flex col-3 justify-content-center">Total</h5>
 
-          <div class="col-sm-12">
-            <img src="https://wcm-cdn.wacom.com/-/media/images/products/pen-tablets/eol/wacom intuos pro/wacom-intuos-pro-medium-tn6.png?h=180&la=en&w=180&hash=9B5D82304AACD939E349E3B4AFAE29EC" alt="">
-            <p>Wacom Intuos Pro</p>
-            <p>A professional pen tablet with multi-touch capabilities available in small, medium and large sizes</p>
-          </div>
+            <!-- <div class="products">
 
-          <hr>
-
-        </div>
+            </div> -->
       </div>
+
+      <div class="container cart_container">
+        <div class="products"></div>
+        
+  </div>
 
       <br>
 
@@ -161,6 +164,9 @@
       
 
         <!-- Scripts -->
+
+        <!-- cart script -->
+        <script src="js/cart.js"></script>
 
         <!-- Main Script -->
         <script src="js/main.js"></script>
